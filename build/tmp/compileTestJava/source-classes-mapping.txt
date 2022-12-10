@@ -1,0 +1,42 @@
+page/ticktick/MenuSection.java
+ page.ticktick.MenuSection
+util/GetProperties.java
+ util.GetProperties
+page/ticktick/BarSection.java
+ page.ticktick.BarSection
+page/ticktick/ProjectScrollerSection.java
+ page.ticktick.ProjectScrollerSection
+page/ticktick/TaskSection.java
+ page.ticktick.TaskSection
+control/Control.java
+ control.Control
+browsers/Headless.java
+ browsers.Headless
+control/TextBox.java
+ control.TextBox
+browsers/IBrowser.java
+ browsers.IBrowser
+session/Session.java
+ session.Session
+browsers/Firefox.java
+ browsers.Firefox
+browsers/Chrome.java
+ browsers.Chrome
+testSuite/ticktick/TestBase.java
+ testSuite.ticktick.TestBase
+page/ticktick/TaskDataSection.java
+ page.ticktick.TaskDataSection
+control/Label.java
+ control.Label
+page/ticktick/DeleteSection.java
+ page.ticktick.DeleteSection
+browsers/FactoryBrowser.java
+ browsers.FactoryBrowser
+testSuite/ticktick/CRUDTaskTest.java
+ testSuite.ticktick.CRUDTaskTest
+page/ticktick/MainPageSection.java
+ page.ticktick.MainPageSection
+control/Button.java
+ control.Button
+page/ticktick/SignInSection.java
+ page.ticktick.SignInSection
