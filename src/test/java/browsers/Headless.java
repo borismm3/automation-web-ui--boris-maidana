@@ -9,7 +9,7 @@ import java.time.Duration;
 public class Headless implements IBrowser {
     @Override
     public WebDriver create() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--window-size=1920,1080");
