@@ -14,7 +14,6 @@ public class CRUDTaskTest extends TestBase {
         // Sign in
         mainPageSection.signInButton.click();
         signInSection.signIn(user, password);
-        //Assertions.assertTrue(barSection.isUserDisplayed(), "The sign in has failed");
 
         // Create a task
         projectScrollerSection.addNewTask.click();
