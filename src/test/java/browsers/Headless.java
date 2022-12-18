@@ -12,9 +12,12 @@ public class Headless implements IBrowser {
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--window-size=1920,1080");
-        options.addArguments("--start-maximized");
         options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--ignore-certificate-errors");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
 
         WebDriver driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
